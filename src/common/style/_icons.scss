@@ -1,0 +1,5797 @@
+/* Buttons */
+.buttonsUI .animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.buttonsUI .action-button {
+  position: relative;
+  padding: 8px 20px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.buttonsUI .icon-button {
+  position: relative;
+  padding: 3px 10px 2px 10px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.buttonsUI .icon16-button {
+  position: relative;
+  padding: 4px 10px 3px 10px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.buttonsUI .icon16-small-button {
+  position: relative;
+  padding: 8px 10px 5px 10px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonsUI .icon16-small-small-button {
+  position: relative;
+  padding: 3px 3px 3px 3px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.buttonsUI .icon16-small-small-button-text {
+  position: relative;
+  padding: 3px 10px 1px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 24px;
+  display: block;
+}
+
+.buttonsUI .combo-left {
+  margin: 0px 2px 10px 0px;
+}
+
+.buttonsUI .icon-button .icons24 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.buttonsUI .icon16-button .icons16 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.buttonsUI .blue {
+  background-color: #56b6d9;
+  border-bottom: 2px solid #127ea5;
+  color: #FFF;
+}
+
+.buttonsUI .blue:hover {
+  background-color: #97d7ef;
+}
+
+.buttonsUI .gray {
+  background-color: #cccccc;
+  border-bottom: 2px solid #333333;
+  color: #333333;
+}
+
+.buttonsUI .gray:hover {
+  background-color: #f5f5f5;
+}
+
+.buttonsUI .purple {
+  background-color: #621f71;
+  border-bottom: 2px solid #33033e;
+  color: #FFF;
+}
+
+.buttonsUI .purple:hover {
+  background-color: #86549c;
+}
+
+.buttonsUI .action-button:active {
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
+  border-bottom: 1px solid;
+}
+
+.buttonsUI .icon-button:active {
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
+  border-bottom: 1px solid;
+}
+
+.buttonsUI .icon16-button:active {
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
+  border-bottom: 1px solid;
+}
+
+.buttonsUI .icon16-small-button:active {
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
+  border-bottom: 1px solid;
+}
+
+.buttonsUI .icon16-small-small-button:active {
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
+  border-bottom: 1px solid;
+}
+
+.buttonsUI .icon16-small-small-button-text:active {
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
+  border-bottom: 1px solid;
+}
+
+/* End Buttons */
+/* Slabs */
+.slab-gray {
+  background-color: #333333;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.slab-purple {
+  background-color: #621f71;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.slab-green {
+  background-color: #81ae49;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* End Slabs */
+/* Icons
+ h1 .iconsWrapper {
+	font-size: 16px;
+}
+ table {
+	margin-bottom: 20px;
+}
+ .iconsWrapper .sectionTitle {
+	font-size: 25px;
+}
+ .purpleBgd span {
+	background-color: #621f71;
+}
+/* End Icons */
+/* Bootstrap settings for styleguide */
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+/* Avatars */
+.suspended {
+  opacity: 0.5;
+}
+
+.avatar-main {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.avatar-small {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  border: 2px;
+}
+
+.avatar {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  border: 3px;
+}
+
+.avatar-large {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  border: 3px;
+}
+
+.avatar-blue {
+  background: #97d7ef;
+  border-style: solid;
+  border-color: #56b6d9;
+  background-repeat: no-repeat;
+}
+
+.avatar-purple {
+  background: #86549c;
+  border-style: solid;
+  border-color: #621f71;
+  background-repeat: no-repeat;
+}
+
+.avatar-green {
+  background: #81ae49;
+  border-style: solid;
+  border-color: #467034;
+  background-repeat: no-repeat;
+}
+
+.avatar-gray {
+  background: #959494;
+  border-style: solid;
+  border-color: #333333;
+  background-repeat: no-repeat;
+}
+
+/* Photos */
+.photo1-small {
+  background-position: 0 0;
+  background-image: url('../images/icons/photo1.jpg?1446455461');
+  background-size: 30px;
+}
+
+.photo1-medium {
+  background-position: 0 0;
+  background-image: url('../images/icons/photo1.jpg?1446455461');
+  background-size: 52px;
+}
+
+.photo1-large {
+  background-position: 0 0;
+  background-image: url('../images/icons/photo1.jpg?1446455461');
+  background-size: 125px;
+}
+
+/* Small */
+.male-small {
+  background-position: 6px 0;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .male-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.female-small {
+  background-position: -25px 0;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .female-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.viking-small {
+  background-position: -57px 0;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .viking-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.stormtrooper-small {
+  background-position: -94px 0;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .stormtrooper-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.boyking-small {
+  background-position: -131px -2px;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .boyking-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.robot-small {
+  background-position: 6px -50px;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .robot-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.alien-small {
+  background-position: -37px -55px;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .alien-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.apple-small {
+  background-position: -77px -54px;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .apple-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.windows-small {
+  background-position: -105px -54px;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .windows-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+.linux-small {
+  background-position: -135px -54px;
+  background-image: url('../images/icons/avatars-small.png?1446455461');
+  background-size: 156px 83px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .linux-small {
+    background-image: url('../images/icons/avatars-small@2x.png?1446455461');
+  }
+}
+/* Medium */
+.male {
+  background-position: 4px 0;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .male {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.female {
+  background-position: -80px 0;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .female {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.viking {
+  background-position: -167px 0;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .viking {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.stormtrooper {
+  background-position: -266px 0;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .stormtrooper {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.boyking {
+  background-position: -370px -10px;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .boyking {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.robot {
+  background-position: 4px -135px;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .robot {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.alien {
+  background-position: -112px -145px;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .alien {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.apple {
+  background-position: -222px -157px;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .apple {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.windows {
+  background-position: -300px -161px;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .windows {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+.linux {
+  background-position: -380px -161px;
+  background-image: url('../images/icons/avatars-medium.png?1446455461');
+  background-size: 424px 227px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .linux {
+    background-image: url('../images/icons/avatars-medium@2x.png?1449559306');
+  }
+}
+/* Large */
+.male-large {
+  background-position: 18px -25px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .male-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.female-large {
+  background-position: -164px -25px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .female-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.viking-large {
+  background-position: -353px -20px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .viking-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.stormtrooper-large {
+  background-position: -560px -25px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .stormtrooper-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.boyking-large {
+  background-position: -778px -29px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .boyking-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.robot-large {
+  background-position: 27px -330px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .robot-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.alien-large {
+  background-position: -172px -360px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .alien-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.apple-large {
+  background-position: -361px -347px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .apple-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.windows-large {
+  background-position: -563px -348px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .windows-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.linux-large {
+  background-position: -775px -352px;
+  background-image: url('../images/icons/avatars-large.png?1446455461');
+  background-size: 901px 483px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .linux-large {
+    background-image: url('../images/icons/avatars-large@2x.png?1446455461');
+  }
+}
+.user-name {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.roles {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+/* Loading CSS Gray 32px */
+.bluebg {
+  background-color: #56b6d9;
+}
+
+.purplebg {
+  background-color: #621f71;
+}
+
+/* Loading 32px */
+.loadingcircles32 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  -moz-transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.circle32-gray {
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 6px;
+  width: 6px;
+  -moz-border-radius: 3px;
+  -moz-animation-name: fadeG-gray;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 3px;
+  -webkit-animation-name: fadeG-gray;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 3px;
+  -ms-animation-name: fadeG-gray;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 3px;
+  -o-animation-name: fadeG-gray;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 3px;
+  animation-name: fadeG-gray;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle32-blue-white {
+  position: absolute;
+  background-color: #56b6d9;
+  height: 6px;
+  width: 6px;
+  -moz-border-radius: 3px;
+  -moz-animation-name: fadeG-blue-white;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 3px;
+  -webkit-animation-name: fadeG-blue-white;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 3px;
+  -ms-animation-name: fadeG-blue-white;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 3px;
+  -o-animation-name: fadeG-blue-white;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 3px;
+  animation-name: fadeG-blue-white;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle32-purple-white {
+  position: absolute;
+  background-color: #621f71;
+  height: 6px;
+  width: 6px;
+  -moz-border-radius: 3px;
+  -moz-animation-name: fadeG-purple-white;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 3px;
+  -webkit-animation-name: fadeG-purple-white;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 3px;
+  -ms-animation-name: fadeG-purple-white;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 3px;
+  -o-animation-name: fadeG-purple-white;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 3px;
+  animation-name: fadeG-purple-white;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle32_01 {
+  left: 0;
+  top: 13px;
+  -moz-animation-delay: 0.39s;
+  -webkit-animation-delay: 0.39s;
+  -ms-animation-delay: 0.39s;
+  -o-animation-delay: 0.39s;
+  animation-delay: 0.39s;
+}
+
+.circle32_02 {
+  left: 4px;
+  top: 4px;
+  -moz-animation-delay: 0.52s;
+  -webkit-animation-delay: 0.52s;
+  -ms-animation-delay: 0.52s;
+  -o-animation-delay: 0.52s;
+  animation-delay: 0.52s;
+}
+
+.circle32_03 {
+  left: 13px;
+  top: 0;
+  -moz-animation-delay: 0.65s;
+  -webkit-animation-delay: 0.65s;
+  -ms-animation-delay: 0.65s;
+  -o-animation-delay: 0.65s;
+  animation-delay: 0.65s;
+}
+
+.circle32_04 {
+  right: 4px;
+  top: 4px;
+  -moz-animation-delay: 0.78s;
+  -webkit-animation-delay: 0.78s;
+  -ms-animation-delay: 0.78s;
+  -o-animation-delay: 0.78s;
+  animation-delay: 0.78s;
+}
+
+.circle32_05 {
+  right: 0;
+  top: 13px;
+  -moz-animation-delay: 0.91s;
+  -webkit-animation-delay: 0.91s;
+  -ms-animation-delay: 0.91s;
+  -o-animation-delay: 0.91s;
+  animation-delay: 0.91s;
+}
+
+.circle32_06 {
+  right: 4px;
+  bottom: 4px;
+  -moz-animation-delay: 1.04s;
+  -webkit-animation-delay: 1.04s;
+  -ms-animation-delay: 1.04s;
+  -o-animation-delay: 1.04s;
+  animation-delay: 1.04s;
+}
+
+.circle32_07 {
+  left: 13px;
+  bottom: 0;
+  -moz-animation-delay: 1.17s;
+  -webkit-animation-delay: 1.17s;
+  -ms-animation-delay: 1.17s;
+  -o-animation-delay: 1.17s;
+  animation-delay: 1.17s;
+}
+
+.circle32_08 {
+  left: 4px;
+  bottom: 4px;
+  -moz-animation-delay: 1.3s;
+  -webkit-animation-delay: 1.3s;
+  -ms-animation-delay: 1.3s;
+  -o-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+/* Loading 16px */
+.loadingcircles16 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  -moz-transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.circle16-gray {
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 3px;
+  width: 3px;
+  -moz-border-radius: 1px;
+  -moz-animation-name: fadeG-gray;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 1px;
+  -webkit-animation-name: fadeG-gray;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 1px;
+  -ms-animation-name: fadeG-gray;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 1px;
+  -o-animation-name: fadeG-gray;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 1px;
+  animation-name: fadeG-gray;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle16-blue-white {
+  position: absolute;
+  background-color: #56b6d9;
+  height: 3px;
+  width: 3px;
+  -moz-border-radius: 1px;
+  -moz-animation-name: fadeG-blue-white;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 1px;
+  -webkit-animation-name: fadeG-blue-white;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 1px;
+  -ms-animation-name: fadeG-blue-white;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 1px;
+  -o-animation-name: fadeG-blue-white;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 1px;
+  animation-name: fadeG-blue-white;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle16-purple-white {
+  position: absolute;
+  background-color: #621f71;
+  height: 3px;
+  width: 3px;
+  -moz-border-radius: 1px;
+  -moz-animation-name: fadeG-purple-white;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 1px;
+  -webkit-animation-name: fadeG-purple-white;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 1px;
+  -ms-animation-name: fadeG-purple-white;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 1px;
+  -o-animation-name: fadeG-purple-white;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 1px;
+  animation-name: fadeG-purple-white;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle16_01 {
+  left: 0;
+  top: 7px;
+  -moz-animation-delay: 0.39s;
+  -webkit-animation-delay: 0.39s;
+  -ms-animation-delay: 0.39s;
+  -o-animation-delay: 0.39s;
+  animation-delay: 0.39s;
+}
+
+.circle16_02 {
+  left: 2px;
+  top: 2px;
+  -moz-animation-delay: 0.52s;
+  -webkit-animation-delay: 0.52s;
+  -ms-animation-delay: 0.52s;
+  -o-animation-delay: 0.52s;
+  animation-delay: 0.52s;
+}
+
+.circle16_03 {
+  left: 7px;
+  top: 0;
+  -moz-animation-delay: 0.65s;
+  -webkit-animation-delay: 0.65s;
+  -ms-animation-delay: 0.65s;
+  -o-animation-delay: 0.65s;
+  animation-delay: 0.65s;
+}
+
+.circle16_04 {
+  right: 2px;
+  top: 2px;
+  -moz-animation-delay: 0.78s;
+  -webkit-animation-delay: 0.78s;
+  -ms-animation-delay: 0.78s;
+  -o-animation-delay: 0.78s;
+  animation-delay: 0.78s;
+}
+
+.circle16_05 {
+  right: 0;
+  top: 7px;
+  -moz-animation-delay: 0.91s;
+  -webkit-animation-delay: 0.91s;
+  -ms-animation-delay: 0.91s;
+  -o-animation-delay: 0.91s;
+  animation-delay: 0.91s;
+}
+
+.circle16_06 {
+  right: 2px;
+  bottom: 2px;
+  -moz-animation-delay: 1.04s;
+  -webkit-animation-delay: 1.04s;
+  -ms-animation-delay: 1.04s;
+  -o-animation-delay: 1.04s;
+  animation-delay: 1.04s;
+}
+
+.circle16_07 {
+  left: 7px;
+  bottom: 0;
+  -moz-animation-delay: 1.17s;
+  -webkit-animation-delay: 1.17s;
+  -ms-animation-delay: 1.17s;
+  -o-animation-delay: 1.17s;
+  animation-delay: 1.17s;
+}
+
+.circle16_08 {
+  left: 2px;
+  bottom: 2px;
+  -moz-animation-delay: 1.3s;
+  -webkit-animation-delay: 1.3s;
+  -ms-animation-delay: 1.3s;
+  -o-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+/* Loading 64px */
+.loadingcircles64 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  -moz-transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.circle64-gray {
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 12px;
+  width: 12px;
+  -moz-border-radius: 6px;
+  -moz-animation-name: fadeG-gray;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 6px;
+  -webkit-animation-name: fadeG-gray;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 6px;
+  -ms-animation-name: fadeG-gray;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 6px;
+  -o-animation-name: fadeG-gray;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 6px;
+  animation-name: fadeG-gray;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle64-blue-white {
+  position: absolute;
+  background-color: #56b6d9;
+  height: 12px;
+  width: 12px;
+  -moz-border-radius: 6px;
+  -moz-animation-name: fadeG-blue-white;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 6px;
+  -webkit-animation-name: fadeG-blue-white;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 6px;
+  -ms-animation-name: fadeG-blue-white;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 6px;
+  -o-animation-name: fadeG-blue-white;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 6px;
+  animation-name: fadeG-blue-white;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle64-purple-white {
+  position: absolute;
+  background-color: #621f71;
+  height: 12px;
+  width: 12px;
+  -moz-border-radius: 6px;
+  -moz-animation-name: fadeG-purple-white;
+  -moz-animation-duration: 1.04s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: linear;
+  -webkit-border-radius: 6px;
+  -webkit-animation-name: fadeG-purple-white;
+  -webkit-animation-duration: 1.04s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: linear;
+  -ms-border-radius: 6px;
+  -ms-animation-name: fadeG-purple-white;
+  -ms-animation-duration: 1.04s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: linear;
+  -o-border-radius: 6px;
+  -o-animation-name: fadeG-purple-white;
+  -o-animation-duration: 1.04s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: linear;
+  border-radius: 6px;
+  animation-name: fadeG-purple-white;
+  animation-duration: 1.04s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.circle64_01 {
+  left: 0;
+  top: 26px;
+  -moz-animation-delay: 0.39s;
+  -webkit-animation-delay: 0.39s;
+  -ms-animation-delay: 0.39s;
+  -o-animation-delay: 0.39s;
+  animation-delay: 0.39s;
+}
+
+.circle64_02 {
+  left: 8px;
+  top: 8px;
+  -moz-animation-delay: 0.52s;
+  -webkit-animation-delay: 0.52s;
+  -ms-animation-delay: 0.52s;
+  -o-animation-delay: 0.52s;
+  animation-delay: 0.52s;
+}
+
+.circle64_03 {
+  left: 26px;
+  top: 0;
+  -moz-animation-delay: 0.65s;
+  -webkit-animation-delay: 0.65s;
+  -ms-animation-delay: 0.65s;
+  -o-animation-delay: 0.65s;
+  animation-delay: 0.65s;
+}
+
+.circle64_04 {
+  right: 8px;
+  top: 8px;
+  -moz-animation-delay: 0.78s;
+  -webkit-animation-delay: 0.78s;
+  -ms-animation-delay: 0.78s;
+  -o-animation-delay: 0.78s;
+  animation-delay: 0.78s;
+}
+
+.circle64_05 {
+  right: 0;
+  top: 26px;
+  -moz-animation-delay: 0.91s;
+  -webkit-animation-delay: 0.91s;
+  -ms-animation-delay: 0.91s;
+  -o-animation-delay: 0.91s;
+  animation-delay: 0.91s;
+}
+
+.circle64_06 {
+  right: 8px;
+  bottom: 8px;
+  -moz-animation-delay: 1.04s;
+  -webkit-animation-delay: 1.04s;
+  -ms-animation-delay: 1.04s;
+  -o-animation-delay: 1.04s;
+  animation-delay: 1.04s;
+}
+
+.circle64_07 {
+  left: 26px;
+  bottom: 0;
+  -moz-animation-delay: 1.17s;
+  -webkit-animation-delay: 1.17s;
+  -ms-animation-delay: 1.17s;
+  -o-animation-delay: 1.17s;
+  animation-delay: 1.17s;
+}
+
+.circle64_08 {
+  left: 8px;
+  bottom: 8px;
+  -moz-animation-delay: 1.3s;
+  -webkit-animation-delay: 1.3s;
+  -ms-animation-delay: 1.3s;
+  -o-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+/* Timezone map pins */
+.mappinwrap {
+  display: block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background: #127ea5;
+  padding: 10px;
+}
+
+.mappin.a {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color: #621f71;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  position: relative;
+  border: 1px solid white;
+  box-shadow: 0 0 #621f71, inset 0 1px 1px #86549c, 0 2px 2px #5c5c5c;
+  -moz-box-shadow: 0 0 #621f71, inset 0 1px 1px #621f71, 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.mappin.a:after {
+  height: 10px;
+  width: 2px;
+  content: '';
+  background-color: white;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 5px;
+  top: 100%;
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 0 rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1), inset 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Map Alert Pins */
+#pin-container {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.pin {
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 50% 50% 50% 0;
+  border-radius: 50% 50% 50% 0;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -12px 0 0 -16px;
+  -webkit-animation-name: bounce;
+  -moz-animation-name: bounce;
+  -o-animation-name: bounce;
+  -ms-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+  z-index: 1;
+  border: 1px solid white;
+  -moz-box-shadow: 0 0 4px #9f9f9f;
+  box-shadow: 0 0 4px #9f9f9f;
+}
+
+.pin-critical {
+  background: #ed1e24;
+}
+
+.pin-error {
+  background: #f26522;
+}
+
+.pin-warning {
+  background: #ffcc00;
+}
+
+.pin-clear {
+  background: #81ae49;
+}
+
+.pin-icon-critical {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -11px 0 0 -13px;
+  background-image: url('../images/icons/icons16.png?1452650527');
+  width: 18px;
+  height: 18px;
+  background-size: 288px 234px;
+  background-position: -270px -198px;
+  z-index: 3;
+  -webkit-animation-name: icon-bounce;
+  -moz-animation-name: icon-bounce;
+  -o-animation-name: icon-bounce;
+  -ms-animation-name: icon-bounce;
+  animation-name: icon-bounce;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .pin-icon-critical {
+    background-image: url('../images/icons/icons16@2x.png?1452650527');
+  }
+}
+.pin-icon {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -11px 0 0 -13px;
+  background-image: url('../images/icons/icons16.png?1452650527');
+  width: 18px;
+  height: 18px;
+  background-size: 288px 234px;
+  background-position: -270px -180px;
+  z-index: 3;
+  -webkit-animation-name: icon-bounce;
+  -moz-animation-name: icon-bounce;
+  -o-animation-name: icon-bounce;
+  -ms-animation-name: icon-bounce;
+  animation-name: icon-bounce;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .pin-icon {
+    background-image: url('../images/icons/icons16@2x.png?1452650527');
+  }
+}
+.pulse-shadow {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 13px 0px 0px -9px;
+  -webkit-transform: rotateX(55deg);
+  -moz-transform: rotateX(55deg);
+  -o-transform: rotateX(55deg);
+  -ms-transform: rotateX(55deg);
+  transform: rotateX(55deg);
+  z-index: 0;
+}
+
+.pulse {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 13px 0px 0px -9px;
+  -webkit-transform: rotateX(55deg);
+  -moz-transform: rotateX(55deg);
+  -o-transform: rotateX(55deg);
+  -ms-transform: rotateX(55deg);
+  transform: rotateX(55deg);
+  z-index: 1;
+}
+
+.pulse:after {
+  content: "";
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  margin: -13px 0 0 -15px;
+  -webkit-animation: pulsate 1s ease-out;
+  -moz-animation: pulsate 1s ease-out;
+  -o-animation: pulsate 1s ease-out;
+  -ms-animation: pulsate 1s ease-out;
+  animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-box-shadow: 0 0 1px 2px #ed1e24;
+  box-shadow: 0 0 1px 2px #ed1e24;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  -o-animation-delay: 1.1s;
+  -ms-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+
+@-moz-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    -moz-transform: scale(0.1, 0.1);
+    -o-transform: scale(0.1, 0.1);
+    -ms-transform: scale(0.1, 0.1);
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  50% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    -moz-transform: scale(0.1, 0.1);
+    -o-transform: scale(0.1, 0.1);
+    -ms-transform: scale(0.1, 0.1);
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  50% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+
+@-o-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    -moz-transform: scale(0.1, 0.1);
+    -o-transform: scale(0.1, 0.1);
+    -ms-transform: scale(0.1, 0.1);
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  50% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    -moz-transform: scale(0.1, 0.1);
+    -o-transform: scale(0.1, 0.1);
+    -ms-transform: scale(0.1, 0.1);
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+
+  50% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+}
+
+@-moz-keyframes bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px) rotate(-45deg);
+    -moz-transform: translateY(-2000px) rotate(-45deg);
+    -o-transform: translateY(-2000px) rotate(-45deg);
+    -ms-transform: translateY(-2000px) rotate(-45deg);
+    transform: translateY(-2000px) rotate(-45deg);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px) rotate(-45deg);
+    -moz-transform: translateY(30px) rotate(-45deg);
+    -o-transform: translateY(30px) rotate(-45deg);
+    -ms-transform: translateY(30px) rotate(-45deg);
+    transform: translateY(30px) rotate(-45deg);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -moz-transform: translateY(-10px) rotate(-45deg);
+    -o-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  100% {
+    -webkit-transform: translateY(0) rotate(-45deg);
+    -moz-transform: translateY(0) rotate(-45deg);
+    -o-transform: translateY(0) rotate(-45deg);
+    -ms-transform: translateY(0) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px) rotate(-45deg);
+    -moz-transform: translateY(-2000px) rotate(-45deg);
+    -o-transform: translateY(-2000px) rotate(-45deg);
+    -ms-transform: translateY(-2000px) rotate(-45deg);
+    transform: translateY(-2000px) rotate(-45deg);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px) rotate(-45deg);
+    -moz-transform: translateY(30px) rotate(-45deg);
+    -o-transform: translateY(30px) rotate(-45deg);
+    -ms-transform: translateY(30px) rotate(-45deg);
+    transform: translateY(30px) rotate(-45deg);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -moz-transform: translateY(-10px) rotate(-45deg);
+    -o-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  100% {
+    -webkit-transform: translateY(0) rotate(-45deg);
+    -moz-transform: translateY(0) rotate(-45deg);
+    -o-transform: translateY(0) rotate(-45deg);
+    -ms-transform: translateY(0) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg);
+  }
+}
+
+@-o-keyframes bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px) rotate(-45deg);
+    -moz-transform: translateY(-2000px) rotate(-45deg);
+    -o-transform: translateY(-2000px) rotate(-45deg);
+    -ms-transform: translateY(-2000px) rotate(-45deg);
+    transform: translateY(-2000px) rotate(-45deg);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px) rotate(-45deg);
+    -moz-transform: translateY(30px) rotate(-45deg);
+    -o-transform: translateY(30px) rotate(-45deg);
+    -ms-transform: translateY(30px) rotate(-45deg);
+    transform: translateY(30px) rotate(-45deg);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -moz-transform: translateY(-10px) rotate(-45deg);
+    -o-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  100% {
+    -webkit-transform: translateY(0) rotate(-45deg);
+    -moz-transform: translateY(0) rotate(-45deg);
+    -o-transform: translateY(0) rotate(-45deg);
+    -ms-transform: translateY(0) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px) rotate(-45deg);
+    -moz-transform: translateY(-2000px) rotate(-45deg);
+    -o-transform: translateY(-2000px) rotate(-45deg);
+    -ms-transform: translateY(-2000px) rotate(-45deg);
+    transform: translateY(-2000px) rotate(-45deg);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px) rotate(-45deg);
+    -moz-transform: translateY(30px) rotate(-45deg);
+    -o-transform: translateY(30px) rotate(-45deg);
+    -ms-transform: translateY(30px) rotate(-45deg);
+    transform: translateY(30px) rotate(-45deg);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -moz-transform: translateY(-10px) rotate(-45deg);
+    -o-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  100% {
+    -webkit-transform: translateY(0) rotate(-45deg);
+    -moz-transform: translateY(0) rotate(-45deg);
+    -o-transform: translateY(0) rotate(-45deg);
+    -ms-transform: translateY(0) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg);
+  }
+}
+
+@-moz-keyframes icon-bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px);
+    -moz-transform: translateY(-2000px);
+    -o-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes icon-bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px);
+    -moz-transform: translateY(-2000px);
+    -o-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes icon-bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px);
+    -moz-transform: translateY(-2000px);
+    -o-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes icon-bounce {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-2000px);
+    -moz-transform: translateY(-2000px);
+    -o-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* Loading Color transitions */
+@-moz-keyframes fadeG-gray {
+  0% {
+    background-color: #333333;
+  }
+
+  100% {
+    background-color: #FFFFFF;
+  }
+}
+
+@-webkit-keyframes fadeG-gray {
+  0% {
+    background-color: #333333;
+  }
+
+  100% {
+    background-color: #FFFFFF;
+  }
+}
+
+@-ms-keyframes fadeG-gray {
+  0% {
+    background-color: #333333;
+  }
+
+  100% {
+    background-color: #FFFFFF;
+  }
+}
+
+@-o-keyframes fadeG-gray {
+  0% {
+    background-color: #333333;
+  }
+
+  100% {
+    background-color: #FFFFFF;
+  }
+}
+
+@keyframes fadeG-gray {
+  0% {
+    background-color: #333333;
+  }
+
+  100% {
+    background-color: #FFFFFF;
+  }
+}
+
+@-moz-keyframes fadeG-blue-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #56b6d9;
+  }
+}
+
+@-webkit-keyframes fadeG-blue-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #56b6d9;
+  }
+}
+
+@-ms-keyframes fadeG-blue-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #56b6d9;
+  }
+}
+
+@-o-keyframes fadeG-blue-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #56b6d9;
+  }
+}
+
+@keyframes fadeG-purple-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #56b6d9;
+  }
+}
+
+@-moz-keyframes fadeG-purple-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #621f71;
+  }
+}
+
+@-webkit-keyframes fadeG-purple-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #621f71;
+  }
+}
+
+@-ms-keyframes fadeG-purple-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #621f71;
+  }
+}
+
+@-o-keyframes fadeG-purple-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #621f71;
+  }
+}
+
+@keyframes fadeG-purple-white {
+  0% {
+    background-color: #FFFFFF;
+  }
+
+  100% {
+    background-color: #621f71;
+  }
+}
+
+/* Toggle Buttons */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.toggle-button-wrap {
+  cursor: pointer;
+}
+
+.toggle-button-bg {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  padding: 3px;
+  transition: all 0.2s ease;
+}
+
+.toggle-button-switch {
+  position: relative;
+  left: 0px;
+  width: 74px;
+  height: 74px;
+  border: solid 22px;
+  border-radius: 36px;
+  transition: all 0.2s ease;
+}
+
+.toggle-button-active .toggle-button-switch {
+  left: 80px;
+}
+
+.toggle-button-on,
+.toggle-button-off {
+  position: absolute;
+  transition: all 0.2s ease;
+  padding-top: 15px;
+}
+
+.toggle-button-on {
+  margin-left: 30px;
+}
+
+.toggle-button-off {
+  margin-left: 30px;
+}
+
+.toggle-button-active .toggle-button-bg {
+  background-color: #000;
+}
+
+.toggle-blue-on {
+  margin-left: 5px;
+  color: #afafaf;
+}
+
+.toggle-blue-on.active {
+  color: #56B6D9;
+  font-weight: bold;
+}
+
+.toggle-blue-off {
+  margin-right: 5px;
+}
+
+.toggle-blue span {
+  color: #afafaf;
+  display: inline-block;
+  float: left;
+  padding-top: 3px;
+  font-size: 12px;
+}
+
+.toggle-blue .toggle-button-wrap {
+  width: 35px;
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+}
+
+.toggle-blue .toggle-button-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #afafaf;
+  border-radius: 40px;
+  padding: 2px;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.toggle-blue .toggle-button-switch {
+  position: relative;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  border: solid 3px;
+  background-color: #fff;
+  border-radius: 36px;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 3px #757575;
+}
+
+.toggle-blue .toggle-button-active .toggle-button-switch {
+  left: 15px;
+}
+
+.toggle-blue .toggle-button-in,
+.toggle-blue .toggle-button-out {
+  position: absolute;
+  transition: all 0.2s ease;
+  padding-top: 15px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.toggle-blue .toggle-button-in {
+  margin-left: 30px;
+}
+
+.toggle-blue .toggle-button-out {
+  margin-left: 18px;
+}
+
+.toggle-blue .toggle-button-active .toggle-button-bg {
+  background-color: #56B6D9;
+}
+
+/* Icons */
+h1 .iconsWrapper {
+  font-size: 16px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+.iconsWrapper .sectionTitle {
+  font-size: 25px;
+}
+
+.purpleBgd span {
+  background-color: #621f71;
+}
+
+.blueBgd span {
+  background-color: #56b6d9;
+}
+
+.grayBgd span {
+  background-color: #333;
+}
+
+.icons24 {
+  background-image: url('../images/icons/icons24.png?1452218572');
+  width: 26px;
+  height: 26px;
+  background-size: 416px 312px;
+  line-height: normal;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .icons24 {
+    background-image: url('../images/icons/icons24@2x.png?1452218572');
+  }
+}
+.icons16 {
+  background-image: url('../images/icons/icons16.png?1452650527');
+  width: 18px;
+  height: 18px;
+  background-size: 288px 234px;
+  line-height: normal;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .icons16 {
+    background-image: url('../images/icons/icons16@2x.png?1452650527');
+  }
+}
+span.icons24, span.icons16 {
+  display: inline-block;
+}
+
+span.circle20, span.loading, span.loading16, span.errorFigures {
+  display: inline-block;
+}
+
+/* Hover tooltip  16px */
+span.icons16:before {
+  display: inline-block;
+  padding: 3px 6px;
+  font-size: 12px;
+  -webkit-box-shadow: 1px 1px 1px #777;
+  -moz-box-shadow: 1px 1px 1px #777;
+  box-shadow: 1px 1px 1px #777;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+  z-index: 1000;
+  position: relative;
+  background-color: #5c5c5c;
+  bottom: 0;
+  border-radius: 2px;
+  width: 0;
+  overflow: hidden;
+}
+
+span.icons16:hover:before {
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  bottom: 25px;
+  width: auto;
+}
+
+span.icons16:after {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  /* border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid #5c5c5c;
+  border-bottom: none; */
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+  z-index: 1000;
+}
+
+span.icons16:hover:after {
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  margin-top: -28px;
+}
+
+/* Hover tooltip  24px */
+span.icons24:before {
+  padding: 3px 6px;
+  font-size: 12px;
+  -webkit-box-shadow: 1px 1px 1px #777;
+  -moz-box-shadow: 1px 1px 1px #777;
+  box-shadow: 1px 1px 1px #777;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+  z-index: 1000;
+  position: relative;
+  background-color: #5c5c5c;
+  bottom: 0;
+  border-radius: 2px;
+  width: 0;
+  display: inline-block;
+  overflow: hidden;
+}
+
+span.icons24:hover:before {
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  bottom: 24px;
+  width: auto;
+}
+
+span.icons24:after {
+  display: block;
+  position: relative;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  /* border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #5c5c5c;
+  border-bottom: none; */
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+  z-index: 1000;
+}
+
+span.icons24:hover:after {
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  margin-top: -27px;
+}
+
+/* 24px icons */
+.icons24.handle {
+  width: 22px;
+  height: 22px;
+}
+
+.styled-select .icons24.handle {
+  background-position: -26px 0;
+}
+
+.styled-time .icons24.handle {
+  background-position: 0 0;
+}
+
+.styled-date-range .icons24.handle {
+  background-position: -52px 0;
+}
+
+.styled-lookup .icons24.handle {
+  background-position: -78px 0;
+}
+
+.icons24.inlineHelp-gray {
+  background-position: -130px 0;
+}
+
+.icons24.inlineHelp-green {
+  background-position: -156px 0;
+}
+
+.icons24.regex {
+  background-position: -390px -208px;
+}
+
+span.icons24.regex:before {
+  content: 'Visibility';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.regex:after {
+  content: '';
+}
+
+.icons24.visibility-gray {
+  background-position: -234px 0;
+}
+
+span.icons24.visibility-gray:before {
+  content: 'Visibility';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.visibility-gray:after {
+  content: '';
+}
+
+.icons24.advancedSearch-purple {
+  background-position: 0 -26px;
+}
+
+.icons24.help-gray {
+  background-position: -26px -26px;
+}
+
+.icons24.dateRange-purple {
+  background-position: -52px -26px;
+}
+
+.icons24.addDash-purple {
+  background-position: -78px -26px;
+}
+
+span.icons24.addDash-purple:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.addDash-purple:after {
+  content: '';
+}
+
+.icons24.sdt-blue {
+  background-position: -104px -26px;
+}
+
+.icons24.sdt-purple {
+  background-position: -130px -26px;
+}
+
+.icons24.sdt-gray {
+  background-position: -364px -26px;
+}
+
+.icons24.services-purple {
+  background-position: 0 -52px;
+}
+
+.icons24.services-white {
+  background-position: -26px -52px;
+}
+
+.icons24.services-gray {
+  background-position: -52px -52px;
+}
+
+.icons24.services-blue {
+  background-position: -78px -52px;
+}
+
+.icons24.dash-purple {
+  background-position: -104px -52px;
+}
+
+.icons24.dash-white {
+  background-position: -130px -52px;
+}
+
+.icons24.dash-gray {
+  background-position: -156px -52px;
+}
+
+.icons24.dash-blue {
+  background-position: -182px -52px;
+}
+
+.icons24.hosts-purple {
+  background-position: -208px -52px;
+}
+
+span.icons24.hosts-purple:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.hosts-purple:after {
+  content: '';
+}
+
+.icons24.hosts-white {
+  background-position: -234px -52px;
+}
+
+span.icons24.hosts-white:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.hosts-white:after {
+  content: '';
+}
+
+.icons24.hosts-gray {
+  background-position: -260px -52px;
+}
+
+span.icons24.hosts-gray:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.hosts-gray:after {
+  content: '';
+}
+
+.icons24.hosts-blue {
+  background-position: -286px -52px;
+}
+
+span.icons24.hosts-blue:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.hosts-blue:after {
+  content: '';
+}
+
+.icons24.alerts-purple {
+  background-position: -312px -52px;
+}
+
+.icons24.alerts-white {
+  background-position: -338px -52px;
+}
+
+.icons24.alerts-gray {
+  background-position: -364px -52px;
+}
+
+.icons24.alerts-blue {
+  background-position: -390px -52px;
+}
+
+.icons24.report-purple {
+  background-position: 0 -78px;
+}
+
+.icons24.report-white {
+  background-position: -26px -78px;
+}
+
+.icons24.report-gray {
+  background-position: -52px -78px;
+}
+
+.icons24.report-blue {
+  background-position: -78px -78px;
+}
+
+.icons24.settings-purple {
+  background-position: -104px -78px;
+}
+
+.icons24.settings-white {
+  background-position: -130px -78px;
+}
+
+.icons24.settings-gray {
+  background-position: -156px -78px;
+}
+
+.icons24.settings-blue {
+  background-position: -182px -78px;
+}
+
+.icons24.serviceGroup-gray {
+  background-position: -208px -78px;
+  width: 32px;
+}
+
+.icons24.alertsCritical {
+  background-position: 0px -104px;
+}
+
+.icons24.alertsError {
+  background-position: -26px -104px;
+}
+
+.icons24.alertsWarning {
+  background-position: -52px -104px;
+}
+
+.icons24.alertsDisabled {
+  background-position: -78px -104px;
+}
+
+.icons24.alertsCritical-ack {
+  background-position: -104px -104px;
+}
+
+.icons24.alertsError-ack {
+  background-position: -130px -104px;
+}
+
+.icons24.alertsWarning-ack {
+  background-position: -156px -104px;
+}
+
+.icons24.alertsCriticalSDT {
+  background-position: -182px -104px;
+}
+
+.icons24.alertsErrorSDT {
+  background-position: -208px -104px;
+}
+
+.icons24.alertsWarningSDT {
+  background-position: -234px -104px;
+}
+
+.icons24.alertsCriticalSDT-ack {
+  background-position: -260px -104px;
+}
+
+.icons24.alertsErrorSDT-ack {
+  background-position: -286px -104px;
+}
+
+.icons24.alertsWarningSDT-ack {
+  background-position: -312px -104px;
+}
+
+.icons24.alertsCleared {
+  background-position: -338px -104px;
+}
+
+.icons24.alertsCritical-down {
+  background-position: 0px -130px;
+}
+
+.icons24.alertsCritical-up {
+  background-position: -26px -130px;
+}
+
+.icons24.alertsError-down {
+  background-position: -52px -130px;
+}
+
+.icons24.alertsError-up {
+  background-position: -78px -130px;
+}
+
+.icons24.alertsWarning-down {
+  background-position: -104px -130px;
+}
+
+.icons24.alertsWarning-up {
+  background-position: -130px -130px;
+}
+
+.icons24.alertsDisabled-down {
+  background-position: -156px -130px;
+}
+
+.icons24.alertsDisabled-up {
+  background-position: -182px -130px;
+}
+
+.icons24.alertsCritical-ack-down {
+  background-position: -208px -130px;
+}
+
+.icons24.alertsCritical-ack-up {
+  background-position: -234px -130px;
+}
+
+.icons24.alertsError-ack-down {
+  background-position: -260px -130px;
+}
+
+.icons24.alertsError-ack-up {
+  background-position: -286px -130px;
+}
+
+.icons24.alertsWarning-ack-down {
+  background-position: -312px -130px;
+}
+
+.icons24.alertsWarning-ack-up {
+  background-position: -338px -130px;
+}
+
+.icons24.alertsCriticalSDT-down {
+  background-position: -364px -130px;
+}
+
+.icons24.alertsCriticalSDT-up {
+  background-position: -390px -130px;
+}
+
+.icons24.alertsErrorSDT-down {
+  background-position: 0px -156px;
+}
+
+.icons24.alertsErrorSDT-up {
+  background-position: -26px -156px;
+}
+
+.icons24.alertsWarningSDT-down {
+  background-position: -52px -156px;
+}
+
+.icons24.alertsWarningSDT-up {
+  background-position: -78px -156px;
+}
+
+.icons24.alertsCriticalSDT-ack-down {
+  background-position: -104px -156px;
+}
+
+.icons24.alertsCriticalSDT-ack-up {
+  background-position: -130px -156px;
+}
+
+.icons24.alertsErrorSDT-ack-down {
+  background-position: -156px -156px;
+}
+
+.icons24.alertsErrorSDT-ack-up {
+  background-position: -182px -156px;
+}
+
+.icons24.alertsWarningSDT-ack-down {
+  background-position: -208px -156px;
+}
+
+.icons24.alertsWarningSDT-ack-up {
+  background-position: -234px -156px;
+}
+
+.icons24.alertsCleared-down {
+  background-position: -260px -156px;
+}
+
+.icons24.alertsCleared-up {
+  background-position: -286px -156px;
+}
+
+.icons24.alertsColumnHead-desc {
+  background-position: -314px -156px;
+}
+
+span.icons24.alertsColumnHead-desc:before {
+  content: 'Sort\00a0 Descending';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.alertsColumnHead-desc:after {
+  content: '';
+}
+
+.icons24.alertsColumnHead-asc {
+  background-position: -340px -156px;
+}
+
+span.icons24.alertsColumnHead-asc:before {
+  content: 'Sort\00a0 Ascending';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.alertsColumnHead-asc:after {
+  content: '';
+}
+
+.icons24.dragNDrop {
+  background-position: -156px -26px;
+}
+
+.icons24.aloneSDT {
+  background-position: -364px -104px;
+}
+
+.icons24.aloneSDTGray {
+  background-position: -390px -104px;
+}
+
+.icons24.aloneSDT-down {
+  background-position: -364px -156px;
+}
+
+.icons24.aloneSDT-up {
+  background-position: -390px -156px;
+}
+
+.icons24.folderGroup {
+  background-position: -260px 0;
+}
+
+span.icons24.folderGroup:before {
+  content: 'Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.folderGroup:after {
+  content: '';
+}
+
+.icons24.folderGroupWhite {
+  background-position: -364px -208px;
+}
+
+span.icons24.folderGroupWhite:before {
+  content: 'Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.folderGroupWhite:after {
+  content: '';
+}
+
+.icons24.downBlack {
+  background-position: -208px 0;
+}
+
+.icons24.circleCheckmarkWhite {
+  background-position: -182px 0;
+}
+
+.icons24.circleXWhite {
+  background-position: -286px 0;
+}
+
+.icons24.circleCheckmarkGray {
+  background-position: -312px 0;
+}
+
+.icons24.circleXGray {
+  background-position: -338px 0;
+}
+
+.icons24.downArrowWhite {
+  background-position: -364px 0;
+}
+
+.icons24.downArrowGray {
+  background-position: -390px 0;
+}
+
+.icons24.folderGroupLarge {
+  background-position: -182px -26px;
+}
+
+.icons24.iconGraphWhite {
+  background-position: -208px -26px;
+}
+
+.icons24.iconGraphGray {
+  background-position: -234px -26px;
+}
+
+.icons24.iconGraphBlue {
+  background-position: -260px -26px;
+}
+
+.icons24.alertClusterWhite {
+  background-position: -286px -26px;
+}
+
+.icons24.alertClusterGray {
+  background-position: -312px -26px;
+}
+
+.icons24.alertClusterBlue {
+  background-position: -338px -26px;
+}
+
+.icons24.datasourceGray {
+  background-position: 0px -182px;
+}
+
+span.icons24.datasourceGray:before {
+  content: 'Datasource';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datasourceGray:after {
+  content: '';
+}
+
+.icons24.datasourceWhite {
+  background-position: -26px -182px;
+}
+
+span.icons24.datasourceWhite:before {
+  content: 'Datasource';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datasourceWhite:after {
+  content: '';
+}
+
+.icons24.datasourceGroupGray {
+  background-position: -52px -182px;
+}
+
+span.icons24.datasourceGroupGray:before {
+  content: 'Datasource\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datasourceGroupGray:after {
+  content: '';
+}
+
+.icons24.datasourceGroupWhite {
+  background-position: -78px -182px;
+}
+
+span.icons24.datasourceGroupWhite:before {
+  content: 'Datasource\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datasourceGroupWhite:after {
+  content: '';
+}
+
+.icons24.instanceGray {
+  background-position: -104px -182px;
+}
+
+span.icons24.instanceGray:before {
+  content: 'Instance';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.instanceGray:after {
+  content: '';
+}
+
+.icons24.instanceWhite {
+  background-position: -130px -182px;
+}
+
+span.icons24.instanceWhite:before {
+  content: 'Instance';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.instanceWhite:after {
+  content: '';
+}
+
+.icons24.instanceGroupGray {
+  background-position: -156px -182px;
+}
+
+span.icons24.instanceGroupGray:before {
+  content: 'Instance\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.instanceGroupGray:after {
+  content: '';
+}
+
+.icons24.instanceGroupWhite {
+  background-position: -182px -182px;
+}
+
+span.icons24.instanceGroupWhite:before {
+  content: 'Instance\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.instanceGroupWhite:after {
+  content: '';
+}
+
+.icons24.datapointGray {
+  background-position: -208px -182px;
+}
+
+span.icons24.datapointGray:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datapointGray:after {
+  content: '';
+}
+
+.icons24.datapointWhite {
+  background-position: -234px -182px;
+}
+
+span.icons24.datapointWhite:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datapointWhite:after {
+  content: ' ';
+}
+
+.icons24.datapointGroupGray {
+  background-position: -260px -182px;
+}
+
+span.icons24.datapointGroupGray:before {
+  content: 'Datapoint\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datapointGroupGray:after {
+  content: '';
+}
+
+.icons24.datapointGroupWhite {
+  background-position: -286px -182px;
+}
+
+span.icons24.datapointGroupWhite:before {
+  content: 'Datapoint\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datapointGroupWhite:after {
+  content: '';
+}
+
+.icons24.datapointBlue {
+  background-position: -312px -182px;
+}
+
+span.icons24.datapointBlue:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.datapointBlue:after {
+  content: '';
+}
+
+.icons24.netscanGray {
+  background-position: -286px -78px;
+}
+
+.icons24.netscanWhite {
+  background-position: -260px -78px;
+}
+
+.icons24.platformWindowsGray {
+  background-position: -338px -78px;
+}
+
+.icons24.platformWindowsWhite {
+  background-position: -312px -78px;
+}
+
+.icons24.platformLinuxGray {
+  background-position: -390px -78px;
+}
+
+.icons24.platformLinuxWhite {
+  background-position: -364px -78px;
+}
+
+.icons24.logWhite {
+  background-position: 0px -208px;
+}
+
+.icons24.logGray {
+  background-position: -26px -208px;
+}
+
+.icons24.upArrowWhite {
+  background-position: -390px -26px;
+}
+
+.icons24.arrowFlipltPurple {
+  background-position: -104px -260px;
+}
+
+span.icons24.arrowFlipltPurple:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipltPurple:after {
+  content: '';
+}
+
+.icons24.arrowFlipPurple {
+  background-position: -52px -208px;
+}
+
+span.icons24.arrowFlipPurple:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipPurple:after {
+  content: '';
+}
+
+.icons24.arrowFlipltBlue {
+  background-position: -130px -260px;
+}
+
+span.icons24.arrowFlipltBlue:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipltBlue:after {
+  content: '';
+}
+
+.icons24.arrowFlipBlue {
+  background-position: -156px -260px;
+}
+
+span.icons24.arrowFlipBlue:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipBlue:after {
+  content: '';
+}
+
+.icons24.arrowFlipdkBlue {
+  background-position: -234px -260px;
+}
+
+span.icons24.arrowFlipdkBlue:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipdkBlue:after {
+  content: '';
+}
+
+.icons24.arrowFlipltGray {
+  background-position: -208px -260px;
+}
+
+span.icons24.arrowFlipltGray:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipltGray:after {
+  content: '';
+}
+
+.icons24.arrowFlipGray {
+  background-position: -182px -260px;
+}
+
+span.icons24.arrowFlipGray:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipGray:after {
+  content: '';
+}
+
+.icons24.arrowFlipWhite {
+  background-position: -78px -208px;
+}
+
+span.icons24.arrowFlipWhite:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.arrowFlipWhite:after {
+  content: '';
+}
+
+.icons24.emailGray {
+  background-position: -104px -208px;
+}
+
+span.icons24.emailGray:before {
+  content: 'Email';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.emailGray:after {
+  content: '';
+}
+
+.icons24.emailWhite {
+  background-position: -130px -208px;
+}
+
+span.icons24.emailWhite:before {
+  content: 'Email';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.emailWhite:after {
+  content: '';
+}
+
+.icons24.SMSGray {
+  background-position: -156px -208px;
+}
+
+span.icons24.SMSGray:before {
+  content: 'SMS\00a0 Message';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.SMSGray:after {
+  content: '';
+}
+
+.icons24.SMSWhite {
+  background-position: -182px -208px;
+}
+
+span.icons24.SMSWhite:before {
+  content: 'SMS\00a0 Message';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.SMSWhite:after {
+  content: '';
+}
+
+.icons24.phoneGray {
+  background-position: -208px -208px;
+}
+
+span.icons24.phoneGray:before {
+  content: 'Phone\00a0 Call';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.phoneGray:after {
+  content: '';
+}
+
+.icons24.phoneWhite {
+  background-position: -234px -208px;
+}
+
+span.icons24.phoneWhite:before {
+  content: 'Phone\00a0 Call';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.phoneWhite:after {
+  content: '';
+}
+
+.icons24.collectorGray {
+  background-position: -338px -182px;
+}
+
+.icons24.collectorWhite {
+  background-position: -364px -182px;
+}
+
+.icons24.collectorPurple {
+  background-position: -390px -182px;
+}
+
+.icons24.clouddeviceGray {
+  background-position: -260px -208px;
+}
+
+.icons24.clouddeviceWhite {
+  background-position: -286px -208px;
+}
+
+.icons24.clouddevicePurple {
+  background-position: -312px -208px;
+}
+
+.icons24.clouddeviceBlue {
+  background-position: -338px -208px;
+}
+
+.icons24.boldBlack {
+  background-position: 0px -234px;
+}
+
+.icons24.italicBlack {
+  background-position: -26px -234px;
+}
+
+.icons24.unorderedlistBlack {
+  background-position: -52px -234px;
+}
+
+.icons24.orderedlistBlack {
+  background-position: -78px -234px;
+}
+
+.icons24.linkBlack {
+  background-position: -104px -234px;
+}
+
+.icons24.H1Black {
+  background-position: -130px -234px;
+}
+
+.icons24.H2Black {
+  background-position: -156px -234px;
+}
+
+.icons24.imageBlack {
+  background-position: -182px -234px;
+}
+
+.icons24.showHTMLBlack {
+  background-position: -208px -234px;
+}
+
+.icons24.colorBlack {
+  background-position: -234px -234px;
+}
+
+.icons24.childArrowWhite {
+  background-position: -286px -234px;
+}
+
+.icons24.childArrowBlue {
+  background-position: -312px -234px;
+}
+
+.icons24.childArrowGray {
+  background-position: -260px -234px;
+}
+
+.icons24.publicUserGray {
+  background-position: 0 -260px;
+}
+
+span.icons24.publicUserGray:before {
+  content: 'Public';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.publicUserGray:after {
+  content: '';
+}
+
+.icons24.publicUserWhite {
+  background-position: -26px -260px;
+}
+
+span.icons24.publicUserWhite:before {
+  content: 'Public';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.publicUserWhite:after {
+  content: '';
+}
+
+.icons24.privateUserGray {
+  background-position: -52px -260px;
+}
+
+span.icons24.privateUserGray:before {
+  content: 'Private';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.privateUserGray:after {
+  content: '';
+}
+
+.icons24.privateUserWhite {
+  background-position: -78px -260px;
+}
+
+span.icons24.privateUserWhite:before {
+  content: 'Private';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.privateUserWhite:after {
+  content: '';
+}
+
+.icons24.amazonGray {
+  background-position: -338px -234px;
+}
+
+span.icons24.amazonGray:before {
+  content: 'Amazon\00a0 Web\00a0 Services';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.amazonGray:after {
+  content: '';
+}
+
+.icons24.amazonWhite {
+  background-position: -338px -260px;
+}
+
+span.icons24.amazonWhite:before {
+  content: 'Amazon\00a0 Web\00a0 Services';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.amazonWhite:after {
+  content: '';
+}
+
+.icons24.connectwiseGray {
+  background-position: -364px -286px;
+}
+
+span.icons24.connectwiseGray:before {
+  content: 'ConnectWise';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.connectwiseGray:after {
+  content: '';
+}
+
+.icons24.connectwiseWhite {
+  background-position: -390px -286px;
+}
+
+span.icons24.connectwiseWhite:before {
+  content: 'ConnectWise';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.connectwiseWhite:after {
+  content: '';
+}
+
+.icons24.autotaskGray {
+  background-position: -312px -286px;
+}
+
+span.icons24.autotaskGray:before {
+  content: 'Autotask';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.autotaskGray:after {
+  content: '';
+}
+
+.icons24.autotaskWhite {
+  background-position: -338px -286px;
+}
+
+span.icons24.autotaskWhite:before {
+  content: 'Autotask';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.autotaskWhite:after {
+  content: '';
+}
+
+.icons24.servicenowGray {
+  background-position: -260px -286px;
+}
+
+span.icons24.servicenowGray:before {
+  content: 'Servicenow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.servicenowGray:after {
+  content: '';
+}
+
+.icons24.servicenowWhite {
+  background-position: -286px -286px;
+}
+
+span.icons24.servicenowWhite:before {
+  content: 'Servicenow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.servicenowWhite:after {
+  content: '';
+}
+
+.icons24.pagerdutyGray {
+  background-position: -208px -286px;
+}
+
+span.icons24.pagerdutyGray:before {
+  content: 'Pagerduty';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.pagerdutyGray:after {
+  content: '';
+}
+
+.icons24.pagerdutyWhite {
+  background-position: -234px -286px;
+}
+
+span.icons24.pagerdutyWhite:before {
+  content: 'Pagerduty';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.pagerdutyWhite:after {
+  content: '';
+}
+
+.icons24.slackGray {
+  background-position: -156px -286px;
+}
+
+span.icons24.slackGray:before {
+  content: 'slack';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.slackGray:after {
+  content: '';
+}
+
+.icons24.slackWhite {
+  background-position: -182px -286px;
+}
+
+span.icons24.slackWhite:before {
+  content: 'slack';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.slackWhite:after {
+  content: '';
+}
+
+.icons24.gaugeGray {
+  background-position: -286px -260px;
+}
+
+.icons24.gaugeWhite {
+  background-position: -260px -260px;
+}
+
+.icons24.gaugeBlue {
+  background-position: -312px -260px;
+}
+
+.icons24.listviewWhite {
+  background-position: -364px -260px;
+}
+
+span.icons24.listviewWhite:before {
+  content: 'List\00a0 View';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.listviewWhite:after {
+  content: '';
+}
+
+.icons24.listviewGray {
+  background-position: -390px -260px;
+}
+
+span.icons24.listviewGray:before {
+  content: 'List\00a0 View';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.listviewGray:after {
+  content: '';
+}
+
+.icons24.tileviewWhite {
+  background-position: -364px -234px;
+}
+
+span.icons24.tileviewWhite:before {
+  content: 'Tile\00a0 View';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.tileviewWhite:after {
+  content: '';
+}
+
+.icons24.tileviewGray {
+  background-position: -390px -234px;
+}
+
+span.icons24.tileviewGray:before {
+  content: 'Tile\00a0 View';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.tileviewGray:after {
+  content: '';
+}
+
+.icons24.escalateWhite {
+  background-position: -26px -286px;
+}
+
+span.icons24.escalateWhite:before {
+  content: 'Escalate';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.escalateWhite:after {
+  content: '';
+}
+
+.icons24.escalateGray {
+  background-position: 0 -286px;
+}
+
+span.icons24.escalateGray:before {
+  content: 'Escalate';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons24.escalateGray:after {
+  content: '';
+}
+
+/* 16px icons */
+.icons16.graph-blue {
+  background-position: 0 0;
+  width: 27px;
+}
+
+.icons16.table-blue {
+  background-position: -36px 0;
+}
+
+.icons16.clone-gray {
+  background-position: -54px 0;
+}
+
+.icons16.clone-purple {
+  background-position: -216px 0;
+}
+
+.icons16.edit-purple {
+  background-position: -72px 0;
+}
+
+span.icons16.edit-purple:before {
+  content: 'Edit';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.edit-purple:after {
+  content: '';
+}
+
+.icons16.delete-purple {
+  background-position: -90px 0;
+}
+
+span.icons16.delete-purple:before {
+  content: 'Delete';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.delete-purple:after {
+  content: '';
+}
+
+.icons16.delete-gray {
+  background-position: -252px 0;
+}
+
+span.icons16.delete-gray:before {
+  content: 'Delete';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.delete-gray:after {
+  content: '';
+}
+
+.icons16.delete-white {
+  background-position: -270px 0;
+}
+
+span.icons16.delete-white:before {
+  content: 'Delete';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.delete-white:after {
+  content: '';
+}
+
+.icons16.date-gray-small {
+  background-position: -108px 0;
+}
+
+.icons16.date-white-small {
+  background-position: -90px -72px;
+}
+
+.icons16.closeDialog-ltpurple {
+  background-position: -162px -126px;
+}
+
+span.icons16.closeDialog-ltpurple:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-ltpurple:after {
+  content: '';
+}
+
+.icons16.closeDialog-purple {
+  background-position: -198px -126px;
+}
+
+span.icons16.closeDialog-purple:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-purple:after {
+  content: '';
+}
+
+.icons16.closeDialog-ltblue {
+  background-position: -180px -126px;
+}
+
+span.icons16.closeDialog-ltblue:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-ltblue:after {
+  content: '';
+}
+
+.icons16.closeDialog-blue {
+  background-position: -234px -126px;
+}
+
+span.icons16.closeDialog-blue:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-blue:after {
+  content: '';
+}
+
+.icons16.closeDialog-dkblue {
+  background-position: -252px -126px;
+}
+
+span.icons16.closeDialog-dkblue:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-dkblue:after {
+  content: '';
+}
+
+.icons16.closeDialog-ltgray {
+  background-position: -234px -144px;
+}
+
+span.icons16.closeDialog-ltgray:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-ltgray:after {
+  content: '';
+}
+
+.icons16.closeDialog-gray {
+  background-position: -126px 0;
+}
+
+span.icons16.closeDialog-gray:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-gray:after {
+  content: '';
+}
+
+.icons16.closeDialog-white {
+  background-position: -216px -126px;
+}
+
+span.icons16.closeDialog-white:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.closeDialog-white:after {
+  content: '';
+}
+
+.icons16.dragVertical-gray {
+  background-position: -144px 0;
+}
+
+.icons16.check-white-small {
+  background-position: -162px 0;
+}
+
+.icons16.tableSettings-gray {
+  background-position: -180px 0;
+}
+
+.icons16.search-gray {
+  background-position: -198px 0;
+}
+
+span.icons16.search-gray:before {
+  content: 'Search';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.search-gray:after {
+  content: '';
+}
+
+.icons16.sdt-white {
+  background-position: 0 -18px;
+}
+
+.icons16.sdt-red {
+  background-position: -18px -18px;
+}
+
+.icons16.sdt-blue {
+  background-position: -36px -18px;
+}
+
+.icons16.sdt-gray {
+  background-position: -54px -18px;
+}
+
+.icons16.alert-acked {
+  background-position: -72px -18px;
+}
+
+.icons16.alert-red {
+  background-position: -90px -18px;
+}
+
+.icons16.alert-gray {
+  background-position: -108px -18px;
+}
+
+.icons16.alert-blue {
+  background-position: -252px -36px;
+}
+
+.icons16.alert-white {
+  background-position: -270px -180px;
+}
+
+.icons16.alertcritical-white {
+  background-position: -270px -198px;
+}
+
+.icons16.services-gray {
+  background-position: -126px -18px;
+}
+
+span.icons16.services-gray:before {
+  content: 'Services';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.services-gray:after {
+  content: '';
+}
+
+.icons16.services-white {
+  background-position: -234px -180px;
+}
+
+span.icons16.services-white:before {
+  content: 'Services';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.services-white:after {
+  content: '';
+}
+
+.icons16.download-gray {
+  background-position: -72px -90px;
+  width: 26px;
+}
+
+.icons16.download-white {
+  background-position: -144px -18px;
+  width: 26px;
+}
+
+.icons16.upload-gray {
+  background-position: -72px -18px;
+  width: 26px;
+}
+
+.icons16.upload-white {
+  background-position: -36px -90px;
+  width: 26px;
+}
+
+.icons16.goTo-gray {
+  background-position: -180px -18px;
+}
+
+span.icons16.goTo-gray:before {
+  content: 'Go\00a0 to\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.goTo-gray:after {
+  content: '';
+}
+
+.icons16.goTo-purple {
+  background-position: -198px -18px;
+}
+
+span.icons16.goTo-purple:before {
+  content: 'Go\00a0 to\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.goTo-purple:after {
+  content: '';
+}
+
+.icons16.goTo-white {
+  background-position: -216px -18px;
+}
+
+span.icons16.goTo-white:before {
+  content: 'Go\00a0 to\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.goTo-white:after {
+  content: '';
+}
+
+.icons16.visibility-gray {
+  background-position: -234px -18px;
+}
+
+span.icons16.visibility-gray:before {
+  content: 'Visibility';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.visibility-gray:after {
+  content: '';
+}
+
+.icons16.addToDash-ltpurple {
+  background-position: 0 -180px;
+}
+
+span.icons16.addToDash-ltpurple:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-ltpurple:after {
+  content: '';
+}
+
+.icons16.addToDash-purple {
+  background-position: -252px -18px;
+}
+
+span.icons16.addToDash-purple:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-purple:after {
+  content: '';
+}
+
+.icons16.addToDash-ltblue {
+  background-position: -18px -180px;
+}
+
+span.icons16.addToDash-ltblue:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-ltblue:after {
+  content: '';
+}
+
+.icons16.addToDash-blue {
+  background-position: -36px -180px;
+}
+
+span.icons16.addToDash-blue:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-blue:after {
+  content: '';
+}
+
+.icons16.addToDash-dkblue {
+  background-position: -72px -180px;
+}
+
+span.icons16.addToDash-dkblue:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-dkblue:after {
+  content: '';
+}
+
+.icons16.addToDash-ltgray {
+  background-position: -54px -180px;
+}
+
+span.icons16.addToDash-ltgray:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-ltgray:after {
+  content: '';
+}
+
+.icons16.addToDash-gray {
+  background-position: -234px -90px;
+}
+
+span.icons16.addToDash-gray:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-gray:after {
+  content: '';
+}
+
+.icons16.addToDash-white {
+  background-position: -252px -90px;
+}
+
+span.icons16.addToDash-white:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.addToDash-white:after {
+  content: '';
+}
+
+.icons16.dashboards-gray {
+  background-position: -270px -18px;
+}
+
+.icons16.zoom-ltPurple {
+  background-position: 0 -36px;
+}
+
+span.icons16.zoom-ltPurple:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.zoom-ltPurple:after {
+  content: '';
+}
+
+.icons16.config-ltPurple {
+  background-position: -18px -36px;
+}
+
+span.icons16.config-ltPurple:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-ltPurple:after {
+  content: '';
+}
+
+.icons16.zoom-purple {
+  background-position: -36px -36px;
+}
+
+span.icons16.zoom-purple:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.zoom-purple:after {
+  content: '';
+}
+
+.icons16.config-purple {
+  background-position: -54px -36px;
+}
+
+span.icons16.config-purple:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-purple:after {
+  content: '';
+}
+
+.icons16.zoom-ltBlue {
+  background-position: -72px -36px;
+}
+
+span.icons16.zoom-ltBlue:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.zoom-ltBlue:after {
+  content: '';
+}
+
+.icons16.config-ltBlue {
+  background-position: -90px -36px;
+}
+
+span.icons16.config-ltBlue:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-ltBlue:after {
+  content: '';
+}
+
+.icons16.zoom-blue {
+  background-position: -108px -36px;
+}
+
+span.icons16.zoom-blue:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.zoom-blue:after {
+  content: '';
+}
+
+.icons16.config-blue {
+  background-position: -126px -36px;
+}
+
+span.icons16.config-blue:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-blue:after {
+  content: '';
+}
+
+.icons16.zoom-gray {
+  background-position: -144px -36px;
+}
+
+span.icons16.zoom-gray:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.zoom-gray:after {
+  content: '';
+}
+
+.icons16.config-gray {
+  background-position: -162px -36px;
+}
+
+span.icons16.config-gray:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-gray:after {
+  content: '';
+}
+
+.icons16.zoom-ltGray {
+  background-position: -180px -36px;
+}
+
+span.icons16.zoom-ltGray:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.zoom-ltGray:after {
+  content: '';
+}
+
+.icons16.config-ltGray {
+  background-position: -198px -36px;
+}
+
+span.icons16.config-ltGray:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-ltGray:after {
+  content: '';
+}
+
+.icons16.config-dkBlue {
+  background-position: -216px -36px;
+}
+
+span.icons16.config-dkBlue:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-dkBlue:after {
+  content: '';
+}
+
+.icons16.config-white {
+  background-position: -234px -36px;
+}
+
+span.icons16.config-white:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.config-white:after {
+  content: '';
+}
+
+.icons16.expand-left {
+  background-position: 0 -54px;
+}
+
+span.icons16.expand-left:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.expand-left:after {
+  content: '';
+}
+
+.icons16.expand-right {
+  background-position: -18px -54px;
+}
+
+span.icons16.expand-right:before {
+  content: 'Open';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.expand-right:after {
+  content: '';
+}
+
+.icons16.expand-up {
+  background-position: -36px -54px;
+}
+
+.icons16.expand-down {
+  background-position: -54px -54px;
+}
+
+.icons16.page-right {
+  background-position: -72px -54px;
+  width: 26px;
+}
+
+.icons16.page-left {
+  background-position: -108px -54px;
+  width: 26px;
+}
+
+.icons16.sectionArrow-purple {
+  background-position: -144px -54px;
+  width: 28px;
+}
+
+.icons16.sectionArrow-blue {
+  background-position: -180px -54px;
+  width: 28px;
+}
+
+.icons16.slideshow-blue {
+  background-position: -216px -54px;
+}
+
+span.icons16.slideshow-blue:before {
+  content: 'Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.slideshow-blue:after {
+  content: '';
+}
+
+.icons16.slideshow-gray {
+  background-position: -234px -54px;
+}
+
+span.icons16.slideshow-gray:before {
+  content: 'Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.slideshow-gray:after {
+  content: '';
+}
+
+.icons16.slideshow-white {
+  background-position: -216px -72px;
+}
+
+span.icons16.slideshow-white:before {
+  content: 'Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.slideshow-white:after {
+  content: '';
+}
+
+.icons16.slideshowStop-blue {
+  background-position: -252px -54px;
+}
+
+span.icons16.slideshowStop-blue:before {
+  content: 'Stop\00a0 Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.slideshowStop-blue:after {
+  content: '';
+}
+
+.icons16.slideshowStop-gray {
+  background-position: -252px -72px;
+}
+
+span.icons16.slideshowStop-gray:before {
+  content: 'Stop\00a0 Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.slideshowStop-gray:after {
+  content: '';
+}
+
+.icons16.slideshowStop-white {
+  background-position: -234px -72px;
+}
+
+span.icons16.slideshowStop-white:before {
+  content: 'Stop\00a0 Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.slideshowStop-white:after {
+  content: '';
+}
+
+.icons16.fullScreen-gray {
+  background-position: -270px -54px;
+}
+
+span.icons16.fullScreen-gray:before {
+  content: 'Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.fullScreen-gray:after {
+  content: '';
+}
+
+.icons16.fullScreenClose-gray {
+  background-position: -270px -72px;
+}
+
+span.icons16.fullScreenClose-gray:before {
+  content: 'Close\00a0 Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.fullScreenClose-gray:after {
+  content: '';
+}
+
+.icons16.fullScreen-white {
+  background-position: -270px -90px;
+}
+
+span.icons16.fullScreen-white:before {
+  content: 'Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.fullScreen-white:after {
+  content: '';
+}
+
+.icons16.fullScreenClose-white {
+  background-position: -270px -108px;
+}
+
+span.icons16.fullScreenClose-white:before {
+  content: 'Close\00a0 Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.fullScreenClose-white:after {
+  content: '';
+}
+
+.icons16.dead-black {
+  background-position: -0px -72px;
+}
+
+.icons16.collectorUnreachable-gray {
+  background-position: -18px -72px;
+}
+
+.icons16.opsNote-gray {
+  background-position: -36px -72px;
+}
+
+.icons16.opsNote-purple {
+  background-position: -126px -72px;
+}
+
+.icons16.opsNote-white {
+  background-position: -54px -72px;
+}
+
+.icons16.check-gray {
+  background-position: -72px -72px;
+}
+
+.icons16.check-white-ack {
+  background-position: -108px -72px;
+}
+
+.icons16.favoritesStar {
+  background-position: -144px -72px;
+}
+
+.icons16.favoritesStar-white {
+  background-position: -144px -90px;
+}
+
+.icons16.plusAdd {
+  background-position: -180px -72px;
+}
+
+.icons16.plusAdd-gray {
+  background-position: -198px -72px;
+}
+
+.icons16.legendOpenClose {
+  background-position: -234px 0;
+}
+
+.icons16.gray-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 5.5px 0 5.5px;
+  border-color: #757575 transparent transparent transparent;
+  display: inline-block;
+  background: none;
+}
+
+.icons16.homeWhite {
+  background-position: -270px -36px;
+}
+
+span.icons16.homeWhite:before {
+  content: 'Return\00a0 to\00a0 the\00a0 top';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.homeWhite:after {
+  content: '';
+  /* important: you have to add the unicode escape for every space */
+}
+
+.icons16.homeGray {
+  background-position: -252px -108px;
+}
+
+span.icons16.homeGray:before {
+  content: 'Return\00a0 to\00a0 the\00a0 top';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.homeGray:after {
+  content: '';
+  /* important: you have to add the unicode escape for every space */
+}
+
+.icons16.backArrow-white {
+  background-position: -162px 0;
+}
+
+span.icons16.backArrow-white:before {
+  content: 'Back\00a0 One\00a0 Level';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.backArrow-white:after {
+  content: '';
+  /* important: you have to add the unicode escape for every space */
+}
+
+.icons16.downArrow-white {
+  background-position: -162px -72px;
+}
+
+.icons16.roundCancel-white {
+  background-position: 0 -90px;
+}
+
+span.icons16.roundCancel-white:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.roundCancel-white:after {
+  content: '';
+}
+
+.icons16.roundCancel-gray {
+  background-position: -18px -90px;
+}
+
+span.icons16.roundCancel-gray:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.roundCancel-gray:after {
+  content: '';
+}
+
+.icons16.device-gray {
+  background-position: -108px -90px;
+}
+
+span.icons16.device-gray:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.device-gray:after {
+  content: '';
+}
+
+.icons16.device-white {
+  background-position: -126px -90px;
+}
+
+span.icons16.device-white:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.device-white:after {
+  content: '';
+}
+
+.icons16.device-purple {
+  background-position: -108px -108px;
+}
+
+span.icons16.device-purple:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.device-purple:after {
+  content: '';
+}
+
+.icons16.device-blue {
+  background-position: -126px -108px;
+}
+
+span.icons16.device-blue:before {
+  content: 'Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.device-blue:after {
+  content: '';
+}
+
+.icons16.log-gray {
+  background-position: -162px -90px;
+}
+
+span.icons16.log-gray:before {
+  content: 'Log';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.log-gray:after {
+  content: '';
+}
+
+.icons16.log-white {
+  background-position: -180px -90px;
+}
+
+span.icons16.log-white:before {
+  content: 'Log';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.log-white:after {
+  content: '';
+}
+
+.icons16.netscan-gray {
+  background-position: -198px -90px;
+}
+
+span.icons16.netscan-gray:before {
+  content: 'Netscan';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.netscan-gray:after {
+  content: '';
+}
+
+.icons16.netscan-white {
+  background-position: -216px -90px;
+}
+
+span.icons16.netscan-white:before {
+  content: 'Netscan';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.netscan-white:after {
+  content: '';
+}
+
+.icons16.clouddeviceGray {
+  background-position: 0 -108px;
+}
+
+span.icons16.clouddeviceGray:before {
+  content: 'Cloud\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.clouddeviceGray:after {
+  content: '';
+}
+
+.icons16.clouddeviceWhite {
+  background-position: -18px -108px;
+}
+
+span.icons16.clouddeviceWhite:before {
+  content: 'Cloud\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.clouddeviceWhite:after {
+  content: '';
+}
+
+.icons16.clouddevicePurple {
+  background-position: -36px -108px;
+}
+
+span.icons16.clouddevicePurple:before {
+  content: 'Cloud\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.clouddevicePurple:after {
+  content: '';
+}
+
+.icons16.clouddeviceBlue {
+  background-position: 0 -126px;
+}
+
+span.icons16.clouddeviceBlue:before {
+  content: 'Cloud\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.clouddeviceBlue:after {
+  content: '';
+}
+
+.icons16.applicationGray {
+  background-position: -54px -108px;
+}
+
+span.icons16.applicationGray:before {
+  content: 'Application\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.applicationGray:after {
+  content: '';
+}
+
+.icons16.applicationWhite {
+  background-position: -72px -108px;
+}
+
+span.icons16.applicationWhite:before {
+  content: 'Application\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.applicationWhite:after {
+  content: '';
+}
+
+.icons16.applicationPurple {
+  background-position: -90px -108px;
+}
+
+span.icons16.applicationPurple:before {
+  content: 'Application\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.applicationPurple:after {
+  content: '';
+}
+
+.icons16.awsGray {
+  background-position: -162px -180px;
+}
+
+span.icons16.awsGray:before {
+  content: 'Amazon\00a0 Web\00a0 Services';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.awsGray:after {
+  content: '';
+}
+
+.icons16.awsWhite {
+  background-position: -180px -180px;
+}
+
+span.icons16.awsWhite:before {
+  content: 'Amazon\00a0 Web\00a0 Services';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.awsWhite:after {
+  content: '';
+}
+
+.icons16.deviceTreeBlue {
+  background-position: -144px -108px;
+}
+
+span.icons16.deviceTreeBlue:before {
+  content: 'Device\00a0 Tree';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.deviceTreeBlue:after {
+  content: '';
+}
+
+.icons16.deviceTreeWhite {
+  background-position: -162px -108px;
+}
+
+span.icons16.deviceTreeWhite:before {
+  content: 'Device\00a0 Tree';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.deviceTreeWhite:after {
+  content: '';
+}
+
+.icons16.deviceTreeGray {
+  background-position: -180px -108px;
+}
+
+span.icons16.deviceTreeGray:before {
+  content: 'Device\00a0 Tree';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.deviceTreeGray:after {
+  content: '';
+}
+
+.icons16.filterGray {
+  background-position: -198px -108px;
+}
+
+span.icons16.filterGray:before {
+  content: 'Filter';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.filterGray:after {
+  content: '';
+}
+
+.icons16.filterWhite {
+  background-position: -216px -108px;
+}
+
+span.icons16.filterWhite:before {
+  content: 'Filter';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.filterWhite:after {
+  content: '';
+}
+
+.icons16.filterBlue {
+  background-position: -234px -108px;
+}
+
+span.icons16.filterBlue:before {
+  content: 'Filter';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.filterBlue:after {
+  content: '';
+}
+
+.icons16.infoGray {
+  background-position: -18px -126px;
+}
+
+.icons16.infoWhite {
+  background-position: -36px -126px;
+}
+
+.icons16.datasource-gray {
+  background-position: 0px -144px;
+}
+
+span.icons16.datasource-gray:before {
+  content: 'Datasource';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datasource-gray:after {
+  content: '';
+}
+
+.icons16.datasource-white {
+  background-position: -18px -144px;
+}
+
+span.icons16.datasource-white:before {
+  content: 'Datasource';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datasource-white:after {
+  content: '';
+}
+
+.icons16.datasourceGroup-gray {
+  background-position: -36px -144px;
+}
+
+span.icons16.datasourceGroup-gray:before {
+  content: 'Datasource\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datasourceGroup-gray:after {
+  content: '';
+}
+
+.icons16.datasourceGroup-white {
+  background-position: -54px -144px;
+}
+
+span.icons16.datasourceGroup-white:before {
+  content: 'Datasource\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datasourceGroup-white:after {
+  content: '';
+}
+
+.icons16.focus-gray {
+  background-position: 0 -216px;
+}
+
+span.icons16.focus-gray:before {
+  content: 'Focus\00a0 on\00a0 the\00a0 selected\00a0 node';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.focus-gray:after {
+  content: '';
+}
+
+.icons16.focus-white {
+  background-position: -18px -216px;
+}
+
+span.icons16.focus-white:before {
+  content: 'Focus\00a0 on\00a0 the\00a0 selected\00a0 node';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.focus-white:after {
+  content: '';
+}
+
+.icons16.instance-gray {
+  background-position: -72px -144px;
+}
+
+span.icons16.instance-gray:before {
+  content: 'Instance';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.instance-gray:after {
+  content: '';
+}
+
+.icons16.instance-blue {
+  background-position: -252px -198px;
+}
+
+span.icons16.instance-blue:before {
+  content: 'Instance';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.instance-blue:after {
+  content: '';
+}
+
+.icons16.instance-white {
+  background-position: -90px -144px;
+}
+
+span.icons16.instance-white:before {
+  content: 'Instance';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.instance-white:after {
+  content: '';
+}
+
+.icons16.instanceGroup-gray {
+  background-position: -108px -144px;
+}
+
+span.icons16.instanceGroup-gray:before {
+  content: 'Instance\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.instanceGroup-gray:after {
+  content: '';
+}
+
+.icons16.instanceGroup-white {
+  background-position: -126px -144px;
+}
+
+span.icons16.instanceGroup-white:before {
+  content: 'Instance\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.instanceGroup-white:after {
+  content: '';
+}
+
+.icons16.datapoint-gray {
+  background-position: -144px -144px;
+}
+
+span.icons16.datapoint-gray:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datapoint-gray:after {
+  content: '';
+}
+
+.icons16.datapoint-white {
+  background-position: -162px -144px;
+}
+
+span.icons16.datapoint-white:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datapoint-white:after {
+  content: ' ';
+}
+
+.icons16.datapointGroup-gray {
+  background-position: -180px -144px;
+}
+
+span.icons16.datapointGroup-gray:before {
+  content: 'Datapoint\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datapointGroup-gray:after {
+  content: '';
+}
+
+.icons16.datapointGroup-white {
+  background-position: -198px -144px;
+}
+
+span.icons16.datapointGroup-white:before {
+  content: 'Datapoint\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datapointGroup-white:after {
+  content: '';
+}
+
+.icons16.datapoint-blue {
+  background-position: -216px -144px;
+}
+
+span.icons16.datapoint-blue:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.datapoint-blue:after {
+  content: '';
+}
+
+.icons16.legendOffGray {
+  background-position: -54px -126px;
+}
+
+span.icons16.legendOffGray:before {
+  content: 'Toggle\00a0 Graph\00a0 Legends';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.legendOffGray:after {
+  content: '';
+}
+
+.icons16.legendOnGray {
+  background-position: -72px -126px;
+}
+
+span.icons16.legendOnGray:before {
+  content: 'Toggle\00a0 Graph\00a0 Legends';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.legendOnGray:after {
+  content: '';
+}
+
+.icons16.legendOffWhite {
+  background-position: -90px -126px;
+}
+
+span.icons16.legendOffWhite:before {
+  content: 'Toggle\00a0 Graph\00a0 Legends';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.legendOffWhite:after {
+  content: '';
+}
+
+.icons16.legendOnWhite {
+  background-position: -108px -126px;
+}
+
+span.icons16.legendOnWhite:before {
+  content: 'Toggle\00a0 Graph\00a0 Legends';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.legendOnWhite:after {
+  content: '';
+}
+
+.icons16.downltPurple {
+  background-position: 0 -162px;
+}
+
+.icons16.downPurple {
+  background-position: -18px -162px;
+}
+
+.icons16.downltBlue {
+  background-position: -36px -162px;
+}
+
+.icons16.downBlue {
+  background-position: -54px -162px;
+}
+
+.icons16.downltGray {
+  background-position: -72px -162px;
+}
+
+.icons16.downGray {
+  background-position: -90px -162px;
+}
+
+.icons16.downdkBlue {
+  background-position: -108px -162px;
+}
+
+.icons16.downWhite {
+  background-position: -126px -162px;
+}
+
+.icons16.upltPurple {
+  background-position: 0 -198px;
+}
+
+.icons16.upPurple {
+  background-position: -18px -198px;
+}
+
+.icons16.upltBlue {
+  background-position: -36px -198px;
+}
+
+.icons16.upBlue {
+  background-position: -54px -198px;
+}
+
+.icons16.upltGray {
+  background-position: -72px -198px;
+}
+
+.icons16.upGray {
+  background-position: -90px -198px;
+}
+
+.icons16.updkBlue {
+  background-position: -108px -198px;
+}
+
+.icons16.upWhite {
+  background-position: -126px -198px;
+}
+
+.icons16.rightGray {
+  background-position: -126px -126px;
+}
+
+.icons16.rightdkGray {
+  background-position: -198px -180px;
+}
+
+.icons16.rightBlue {
+  background-position: -216px -180px;
+}
+
+.icons16.rightWhite {
+  background-position: -144px -126px;
+}
+
+.icons16.forecastltPurple {
+  background-position: -144px -162px;
+}
+
+.icons16.forecastPurple {
+  background-position: -162px -162px;
+}
+
+.icons16.forecastltBlue {
+  background-position: -180px -162px;
+}
+
+.icons16.forecastBlue {
+  background-position: -198px -162px;
+}
+
+.icons16.forecastGray {
+  background-position: -216px -162px;
+}
+
+.icons16.forecastltGray {
+  background-position: -234px -162px;
+}
+
+.icons16.forecastdkBlue {
+  background-position: -252px -162px;
+}
+
+.icons16.forecastWhite {
+  background-position: -270px -162px;
+}
+
+.icons16.reports-gray {
+  background-position: -90px -180px;
+}
+
+.icons16.reports-white {
+  background-position: -108px -180px;
+}
+
+.icons16.reports-purple {
+  background-position: -126px -180px;
+}
+
+.icons16.reports-blue {
+  background-position: -144px -180px;
+}
+
+.icons16.regex-white {
+  background-position: -252px -144px;
+}
+
+span.icons16.regex-white:before {
+  content: 'Regex';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.regex-white:after {
+  content: '';
+}
+
+.icons16.regex-gray {
+  background-position: -270px -144px;
+}
+
+span.icons16.regex-gray:before {
+  content: 'Regex';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.regex-gray:after {
+  content: '';
+}
+
+.icons16.urllink-gray {
+  background-position: -252px -180px;
+}
+
+span.icons16.urllink-gray:before {
+  content: 'URL\00a0 Link';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.urllink-gray:after {
+  content: '';
+}
+
+.icons16.locked-blue {
+  background-position: -108px -216px;
+}
+
+span.icons16.locked-blue:before {
+  content: 'Locked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.locked-blue:after {
+  content: '';
+}
+
+.icons16.locked-gray {
+  background-position: -144px -198px;
+}
+
+span.icons16.locked-gray:before {
+  content: 'Locked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.locked-gray:after {
+  content: '';
+}
+
+.icons16.locked-ltgray {
+  background-position: -90px -216px;
+}
+
+span.icons16.locked-ltgray:before {
+  content: 'Locked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.locked-ltgray:after {
+  content: '';
+}
+
+.icons16.locked-white {
+  background-position: -162px -198px;
+}
+
+span.icons16.locked-white:before {
+  content: 'Locked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.locked-white:after {
+  content: '';
+}
+
+.icons16.unlocked-blue {
+  background-position: -144px -216px;
+}
+
+span.icons16.unlocked-blue:before {
+  content: 'Unlocked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.unlocked-blue:after {
+  content: '';
+}
+
+.icons16.unlocked-gray {
+  background-position: -180px -198px;
+}
+
+span.icons16.unlocked-gray:before {
+  content: 'Unlocked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.unlocked-gray:after {
+  content: '';
+}
+
+.icons16.unlocked-ltgray {
+  background-position: -126px -216px;
+}
+
+span.icons16.unlocked-ltgray:before {
+  content: 'Unlocked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.unlocked-ltgray:after {
+  content: '';
+}
+
+.icons16.unlocked-white {
+  background-position: -198px -198px;
+}
+
+span.icons16.unlocked-white:before {
+  content: 'Unlocked';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.unlocked-white:after {
+  content: '';
+}
+
+.icons16.share-gray {
+  background-position: -216px -198px;
+}
+
+span.icons16.share-gray:before {
+  content: 'Share';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.share-gray:after {
+  content: '';
+}
+
+.icons16.share-white {
+  background-position: -234px -198px;
+}
+
+span.icons16.share-white:before {
+  content: 'Share';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.share-white:after {
+  content: '';
+}
+
+.icons16.favorite-white {
+  background-position: -234px -216px;
+}
+
+span.icons16.favorite-white:before {
+  content: 'Favorite';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.favorite-white:after {
+  content: '';
+}
+
+.icons16.favorite-gray {
+  background-position: -252px -216px;
+}
+
+span.icons16.favorite-gray:before {
+  content: 'Favorite';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.favorite-gray:after {
+  content: '';
+}
+
+.icons16.notfavorite-gray {
+  background-position: -270px -216px;
+}
+
+span.icons16.notfavorite-gray:before {
+  content: 'Favorite';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.notfavorite-gray:after {
+  content: '';
+}
+
+.icons16.group-gray {
+  background-position: -162px -216px;
+}
+
+span.icons16.group-gray:before {
+  content: 'Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.group-gray:after {
+  content: '';
+}
+
+.icons16.group-white {
+  background-position: -180px -216px;
+}
+
+span.icons16.group-gray:before {
+  content: 'Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+span.icons16.group-gray:after {
+  content: '';
+}
+
+/* alert status circles */
+.circle20 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.circle20.multi {
+  width: 30px;
+  border-radius: 0;
+  position: relative;
+}
+
+.circle20.multi .circle20 {
+  display: block;
+  float: left;
+}
+
+.circle20.multi .circle20:last-child {
+  border: 2px solid white;
+  margin-top: -2px;
+  margin-left: -14px;
+}
+
+.circle20.critical {
+  background: #ea262b;
+}
+
+.circle20.error {
+  background: #fbac2d;
+}
+
+.circle20.warning {
+  background: #777777;
+}
+
+.circle20.acknowledged {
+  background: #1d9fcb;
+}
+
+.circle20.spacer {
+  background: #ffffff;
+}
+
+/* Reports View Toggle */
+.viewtoggle ul {
+  background-color: #afafaf;
+  height: 28px;
+  width: 55px;
+  padding: 1px;
+  display: block;
+}
+
+.viewtoggle ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.viewtoggle ul li:first-of-type {
+  margin-right: 1px;
+}
+
+.viewtoggle ul a {
+  height: 26px;
+  width: 26px;
+  display: block;
+}
+
+.viewtoggle ul a:hover {
+  background-color: #127ea5;
+}
+
+.viewtoggle li .selected {
+  background-color: #56b6d9;
+}
+
+/* Loading Icons */
+.loading {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.loadingGray {
+  background-image: url('../images/icons/loading-gray.gif?1446455461');
+}
+
+.loadingWhite-onpurple {
+  background-image: url('../images/icons/loading-white-onpurple.gif?1446455461');
+}
+
+.loadingWhite-onblue {
+  background-image: url('../images/icons/loading-white-onblue.gif?1446455461');
+}
+
+.loading16 {
+  width: 16px;
+  height: 16px;
+}
+
+.loadingGray16 {
+  background-image: url('../images/icons/loading-gray16.gif?1446455461');
+}
+
+.loadingWhite-onpurple16 {
+  background-image: url('../images/icons/loading-white-onpurple16.gif?1446455461');
+}
+
+.loadingWhite-onblue16 {
+  background-image: url('../images/icons/loading-white-onblue16.gif?1446455461');
+}
+
+/* Error Images */
+.statusblueBgd {
+  background-color: #56b6d9;
+}
+
+.errorFigures {
+  background-image: url('../images/icons/error-stickfigures.png?1446455461');
+  width: 160px;
+  height: 160px;
+  background-size: 644px 326px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .errorFigures {
+    background-image: url('../images/icons/error-stickfigures@2x.png?1446455461');
+  }
+}
+.errorFiguresGeneralBlue {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.errorFiguresJediBlue {
+  background-position: -322px 0;
+  background-repeat: no-repeat;
+}
+
+.errorFiguresEmptyBlue {
+  background-position: -161px 0;
+  background-repeat: no-repeat;
+}
+
+.errorFiguresGeneralWhite {
+  background-position: 0 -163px;
+  background-repeat: no-repeat;
+}
+
+.errorFiguresJediWhite {
+  background-position: -322px -163px;
+  background-repeat: no-repeat;
+}
+
+.errorFiguresEmptyWhite {
+  background-position: -161px -163px;
+  background-repeat: no-repeat;
+}
+
+.noActiveSDT {
+  background-position: -483px 0;
+  background-repeat: no-repeat;
+}
+
+.okCheckmarkGreen {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 75px;
+  height: 75px;
+  border: 3px solid #81ae49;
+  border-radius: 50%;
+}
+
+.okCheckmarkGreen:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 23px;
+  margin: -5px 0 0 -6px;
+  height: 18px;
+  width: 37px;
+  border: solid #81ae49;
+  border-width: 0 0 10px 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.okCheckmarkWhite {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 75px;
+  height: 75px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.okCheckmarkWhite:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 23px;
+  margin: -5px 0 0 -6px;
+  height: 18px;
+  width: 37px;
+  border: solid white;
+  border-width: 0 0 10px 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Logos */
+.smallLogobw {
+  background-image: url('../images/icons/lm-logo-bw.png?1446455461');
+  width: 112px;
+  height: 21px;
+  background-size: 112px 21px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .smallLogobw {
+    background-image: url('../images/icons/lm-logo-bw@2x.png?1449492761');
+  }
+}
+/*
+.smallLogo {
+	@include background-image(image-url('icons/logos2.png', false, true));
+	width: 112px;
+	height: 21px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+.mediumLogo {
+	@include background-image(image-url('icons/logos2.png', false, true));
+	width: 180px;
+	height: 34px;
+	background-repeat: no-repeat;
+}
+.largeLogo {
+	@include background-image(image-url('icons/logos2.png', false, true));
+	width: 360px;
+	height: 68px;
+	background-repeat: no-repeat;
+}
+/* Logos
+.smallLogo {
+	@include background-image(image-url('icons/logos.png', false, true));
+	width: 112px;
+	height: 21px;
+	background-size: 265px 126px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+@media only screen and (min--moz-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3/2),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-device-pixel-ratio: 1.5)  {
+	.smallLogo {
+	    @include background-image(image-url('icons/logos@2x.png', false, true));
+			}
+}
+.mediumLogo {
+	@include background-image(image-url('icons/logos.png', false, true));
+	width: 180px;
+	height: 34px;
+	background-size: 265px 126px;
+	background-position: 0px -32px;
+	background-repeat: no-repeat;
+}
+@media only screen and (min--moz-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3/2),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-device-pixel-ratio: 1.5)  {
+	.mediumLogo {
+	    @include background-image(image-url('icons/logos@2x.png', false, true));
+			}
+}
+.largeLogo {
+	@include background-image(image-url('icons/logos.png', false, true));
+	width: 265px;
+	height: 50px;
+	background-size: 265px 126px;
+	background-position: 0px -76px;
+	background-repeat: no-repeat;
+}
+@media only screen and (min--moz-device-pixel-ratio: 1.5),
+(-o-min-device-pixel-ratio: 3/2),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-device-pixel-ratio: 1.5)  {
+	.largeLogo {
+	    @include background-image(image-url('icons/logos@2x.png', false, true));
+			}
+} */

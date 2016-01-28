@@ -1,0 +1,158 @@
+@import "mixins";
+@import "variable";
+@import "reset";
+
+/* override browser's default scrollbar style*/
+::-webkit-scrollbar-track-piece {
+    background-color:#fff;
+    border-left:1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+::-webkit-scrollbar {
+    width:13px;
+    height:10px;
+    border: solid 1px #ddd;
+}
+::-webkit-scrollbar-thumb {
+    background-color:#cbcbcb;
+    background-clip:padding-box;
+    border:1px solid #bbb;
+    min-height:28px;
+}
+::-webkit-scrollbar-thumb:hover {
+    border:1px solid #636363;
+    background-color:#929292;
+}
+
+/* -----------------------------------------
+   global styles
+----------------------------------------- */
+*, *:before, *:after {
+    @include box-sizing(border-box);
+}
+
+body, body * {
+    @include box-sizing(border-box);
+    font-family: 'MuseoSans';
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body.app {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+
+a {
+    color: $color-dark-blue;
+}
+
+a[href*="javascript"] {
+    border-bottom: none;
+    color: $color-gray4;
+    text-decoration: none;
+}
+
+a:link {
+    color: $color-dark-blue;
+}
+
+a:visited {
+    color: $color-dark-blue;
+}
+
+a:hover, a:active, a:focus {
+    color: #0F6280;
+}
+
+.clearfix, .add-clearfix {
+    @include pie-clearfix;
+}
+
+ul, ol, dl {
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+/* CSS Arrows */
+.gray-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 5.5px 0 5.5px;
+    border-color: #888888 transparent transparent transparent;
+    display: inline-block;
+
+    &.animate {
+        @include transition(transform, .15s, ease-in);
+    }
+}
+
+.white-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 5.5px 0 5.5px;
+  border-color: white transparent transparent transparent;
+  display: inline-block;
+}
+
+.ellips {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+span {
+    &.ellips {
+        display: inline-block;
+    }
+}
+button[disabled], input[disabled], textarea[disabled]{
+    opacity: 0.4;
+}
+
+span.icons16.regex-white:before {
+    content: 'Glob';
+}
+
+span.icons16.regex-gray:before {
+    content: 'Glob'; /* important: you have to add the unicode escape for every space */
+}

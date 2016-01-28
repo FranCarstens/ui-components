@@ -1,0 +1,411 @@
+@import "variable";
+@import "mixins";
+
+@mixin color-schema($borderColor, $fontColor, $oddRowColor, $evenRowColor) {
+  caption {
+    * {
+      color: $fontColor;
+    }
+  }
+
+  .pager-splitter {
+    background: #ccc;
+  }
+
+  th, td {
+    border-right-color: $borderColor;
+  }
+
+  td {
+    &, * {
+      color: $fontColor;
+    }
+  }
+  th {
+    border-bottom-color: $borderColor;
+
+    &, * {
+      color: $fontColor;
+    }
+  }
+  tbody tr.data-row {
+    &:nth-of-type(odd) {
+      background: $oddRowColor;
+    }
+    &:nth-of-type(even) {
+      background: $evenRowColor;
+    }
+    &.odd.manual-background {
+      background: $oddRowColor;
+    }
+
+    &.even.manual-background {
+      background: $evenRowColor;
+    }
+  }
+}
+
+:local(.lm-table) {
+  position: relative;
+  width: 100%;
+
+  th, td {
+    border-right: 1px dashed #c3c2c2;
+    line-height: 38px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    &.center {
+      text-align: center;
+    }
+
+    &.col-chkbox {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  th {
+    border-bottom: 1px solid #ccc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    &, * {
+      font-size: 14px;
+      font-weight: 500;
+      color: $color-dark-gray;
+      white-space: nowrap;
+    }
+
+    &.col-chkbox {
+      width: 39px;
+      position: relative;
+    }
+
+    &.col-alert-status {
+      width: 40px;
+
+      span {
+        vertical-align: middle;
+      }
+    }
+
+    &.sortable {
+      cursor: pointer;
+
+      .gray-arrow {
+        display: none;
+        margin-left: 12px;
+      }
+
+      &.asc {
+        .gray-arrow {
+          display: inline-block;
+          @include transform(rotate(-180deg));
+        }
+      }
+
+      &.desc {
+        .gray-arrow {
+          display: inline-block;
+          @include transform(rotate(0deg));
+        }
+      }
+    }
+
+    &.resizable {
+      .ui-resizable-handle {
+        cursor: col-resize;
+        width: 10px;
+      }
+    }
+
+    .resizable-header-wrap {
+      overflow: hidden;
+    }
+  }
+
+  td {
+    & {
+      font-size: 12px;
+      font-weight: normal;
+      color: $color-dark-gray;
+    }
+    span.icons24 {
+      margin-top: 0px;
+    }
+
+    .icons24, .icons16 {
+      vertical-align: middle;
+    }
+
+    &.table-highlight-cell {
+      background: #fef9d6 !important; /* Old browsers */
+      background: -moz-linear-gradient(top, #fef9d6 1%, #fdee8d 100%) !important; /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #fef9d6), color-stop(100%, #fdee8d)) !important; /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #fef9d6 1%, #fdee8d 100%) !important; /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #fef9d6 1%, #fdee8d 100%) !important; /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #fef9d6 1%, #fdee8d 100%) !important; /* IE10+ */
+      background: linear-gradient(to bottom, #fef9d6 1%, #fdee8d 100%) !important; /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fef9d6', endColorstr='#fdee8d', GradientType=0) !important; /* IE6-9 */
+    }
+
+    .td-wrapper {
+      display: block;
+      display: -webkit-box;
+      max-height: 90px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+      width: 100%;
+      word-break: break-all;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      padding-top: 4px;
+    }
+
+  }
+
+  tbody {
+    overflow-y: auto;
+    tr.data-row {
+      &:nth-of-type(odd) {
+        background: $color-gray7;
+      }
+
+      &:nth-of-type(even) {
+        background: white;
+      }
+
+      &.odd.manual-background {
+        background: $color-gray7;
+      }
+
+      &.even.manual-background {
+        background: white;
+      }
+
+      &.odd.manual-background, &.even.manual-background {
+        &.highlight {
+          background: #FCF8E4;
+        }
+
+        &:hover {
+          background: $color-blue;
+        }
+      }
+
+      &.highlight {
+        background: #FCF8E4;
+      }
+
+      &:hover {
+        background: $color-blue;
+        td {
+          border-right: 1px dashed white;
+          &, * {
+            color: white;
+          }
+          &.col-expand-btn {
+            border: none;
+          }
+
+          &.table-highlight-cell {
+            &, * {
+              color: $color-dark-gray;
+            }
+          }
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+      &.acked-alert, &.sdt-alert, &.cleared-alert {
+        background: #daeff6;
+        &:hover {
+          background: #56b6d9;
+        }
+      }
+    }
+    border-bottom: 2px solid #ccc;
+  }
+
+  caption, tfoot {
+    td {
+      padding-left: 0;
+      text-align: center;
+    }
+    .lm-pager {
+      * {
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .lm-table-caption-info {
+    background-color: #FCF8E4;
+    padding: 5px;
+    border: 1px solid gray;
+    > div {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .info-content {
+      width: 92%;
+      text-align: left;
+    }
+  }
+
+  /* Define a blue color schema */
+  &.blue {
+    @include color-schema(white, white, $color-dark-blue, $color-blue);
+
+    th {
+      font-weight: 700;
+    }
+
+    tbody {
+      tr.data-row {
+        &:hover {
+          background: $color-gray7;
+          td {
+            color: $color-dark-gray;
+          }
+        }
+      }
+    }
+  }
+
+  /* for any embedded table, the border-bottom-width of the th is 3px */
+  .lm-table {
+    th {
+      border-bottom-width: 3px;
+    }
+  }
+
+  &.x-large-font {
+    th {
+      &, * {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+
+    td {
+      &, * {
+        font-size: 16px;
+      }
+    }
+  }
+
+  &.large-font {
+    th {
+      &, * {
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+
+    td {
+      &, * {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &.small-font {
+    th {
+      &, * {
+        font-size: 12px;
+      }
+    }
+
+    td {
+      &, * {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .icons16.delete-gray {
+    cursor: pointer;
+  }
+}
+
+td.nowrap {
+  white-space: nowrap;
+}
+
+table.nowrap {
+  tbody > tr > td {
+    white-space: nowrap;
+  }
+}
+
+.table-select-all {
+  cursor: pointer;
+  background: white;
+  display: inline-block;
+  width: 39px;
+  height: 37px;
+  border: 1px solid transparent;
+  z-index: 2;
+  position: relative;
+  left: 0;
+  text-align: center;
+
+  .icons16 {
+    vertical-align: middle;
+  }
+
+  &.active {
+    border: 1px solid gray;
+    border-bottom: none;
+    box-shadow: -1px -2px 2px -2px #cccccc
+  }
+}
+
+.lm-table-select-all {
+  position: absolute;
+  background: white;
+  border: solid 1px gray;
+  display: none;
+  top: 39px;
+  z-index: 1;
+  box-shadow: 1px 2px 2px #cccccc;
+
+  li {
+    text-align: left;
+    white-space: nowrap;
+    color: #3c3c3c;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 30px 5px 10px;
+    cursor: pointer;
+
+    &:hover {
+      background: #ededed;
+    }
+
+    &.disabled {
+      background: $color-gray7;
+      color: $color-gray5;
+    }
+  }
+}
+
+.pager-bottom {
+  margin-top: 5px;
+}
+
+.lm-resize-table {
+  td {
+    overflow: hidden;
+  }
+}
